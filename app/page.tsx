@@ -268,8 +268,25 @@ export default function Home() {
           </a>
 
           <a
+            href="/projects/tiny-house-heat-transfer"
+            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          >
+            <h3 className="mb-2 text-xl font-semibold">
+              Tiny House Heat Transfer Simulation
+            </h3>
+            <p className="mb-4 text-zinc-400">
+              Modeled heat transfer and energy usage in a tiny house system
+              using MATLAB, Simulink, and parameter testing.
+            </p>
+            <p className="text-sm text-zinc-500">
+              Skills: MATLAB, Simulink, heat transfer, simulation, energy
+              analysis
+            </p>
+          </a>
+
+          <a
             href="/projects/raspberry-pi-sense-hat"
-            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40 md:col-span-2"
+            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
           >
             <h3 className="mb-2 text-xl font-semibold">
               Raspberry Pi Sense HAT Controller

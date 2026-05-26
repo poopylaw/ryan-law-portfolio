@@ -1,9 +1,22 @@
 import PageBackground from "@/app/components/PageBackground";
 
+const images = [
+  {
+    src: "/projects/sense-hat/sense-hat-joystick.png",
+    alt: "Raspberry Pi Sense HAT LED matrix controlled using joystick mode",
+    title: "Joystick Mode",
+  },
+  {
+    src: "/projects/sense-hat/sense-hat-accelerometer.png",
+    alt: "Raspberry Pi Sense HAT LED matrix controlled using accelerometer mode",
+    title: "Accelerometer Mode",
+  },
+];
+
 export default function RaspberryPiSenseHatPage() {
   return (
     <PageBackground>
-      <section className="mx-auto max-w-4xl px-6 py-20">
+      <section className="mx-auto max-w-5xl px-6 py-20">
         <a href="/" className="mb-8 inline-block text-sky-300/80 hover:text-white">
           ← Back to Home
         </a>
@@ -16,12 +29,32 @@ export default function RaspberryPiSenseHatPage() {
           Raspberry Pi Sense HAT Controller
         </h1>
 
-        <p className="mb-10 text-lg leading-8 text-zinc-300">
+        <p className="mb-10 max-w-4xl text-lg leading-8 text-zinc-300">
           I developed a MATLAB-based control interface for a Raspberry Pi Sense
           HAT 8x8 LED matrix using joystick and accelerometer inputs. The
           project combined embedded hardware, sensor processing, conditional
           logic, and display control.
         </p>
+
+        <div className="mb-12 grid gap-6 md:grid-cols-2">
+          {images.map((image) => (
+            <div
+              key={image.src}
+              className="overflow-hidden rounded-2xl border border-sky-400/10 bg-zinc-950/70 shadow-2xl shadow-sky-950/20 backdrop-blur"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="h-80 w-full object-cover transition duration-300 hover:scale-105"
+              />
+              <div className="p-4">
+                <p className="text-sm font-medium text-sky-300/80">
+                  {image.title}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur">
@@ -43,12 +76,20 @@ export default function RaspberryPiSenseHatPage() {
         </div>
 
         <section className="mt-12">
-          <h2 className="mb-4 text-3xl font-bold">Control Modes</h2>
+          <h2 className="mb-4 text-3xl font-bold">Joystick Mode</h2>
           <p className="leading-8 text-zinc-300">
-            The controller used joystick and accelerometer inputs to control how
-            an image appeared on the Sense HAT display. The system used
-            conditional logic to determine which input mode was active and how
-            the display should respond.
+            In joystick mode, the Sense HAT joystick controlled how the image
+            appeared on the 8x8 LED matrix. The program responded to directional
+            joystick input and updated the display using MATLAB logic.
+          </p>
+        </section>
+
+        <section className="mt-12">
+          <h2 className="mb-4 text-3xl font-bold">Accelerometer Mode</h2>
+          <p className="leading-8 text-zinc-300">
+            In accelerometer mode, the system used orientation data from the
+            Sense HAT to adjust the image display. This allowed the LED matrix
+            output to respond to physical movement of the Raspberry Pi.
           </p>
         </section>
 

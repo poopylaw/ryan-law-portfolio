@@ -112,7 +112,10 @@ export default function Home() {
         <h2 className="mb-8 text-3xl font-bold">Featured Projects</h2>
 
         <div className="grid gap-6 md:grid-cols-2">
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600">
+          <a
+            href="/projects/vex-robotics"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
             <h3 className="mb-2 text-xl font-semibold">VEX Robotics Design</h3>
             <p className="mb-4 text-zinc-400">
               Mechanical design improvements, prototyping, testing, and
@@ -121,33 +124,44 @@ export default function Home() {
             <p className="text-sm text-zinc-500">
               Skills: mechanical design, teamwork, troubleshooting, prototyping
             </p>
-          </div>
+          </a>
 
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600">
+          <a
+            href="/projects/matlab-projects"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
             <h3 className="mb-2 text-xl font-semibold">
-              MATLAB Engineering Projects
+              MATLAB Diffusion Simulation
             </h3>
             <p className="mb-4 text-zinc-400">
-              Simulations, data analysis, and engineering problem-solving using
-              MATLAB.
+              Modeled particle diffusion across connected boxes using MATLAB
+              arrays, loops, probability, and animated bar graphs.
             </p>
             <p className="text-sm text-zinc-500">
               Skills: MATLAB, modeling, simulation, data analysis
             </p>
-          </div>
+          </a>
 
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600">
-            <h3 className="mb-2 text-xl font-semibold">Thermal Simulation</h3>
+          <a
+            href="/projects/tiny-house-heat-transfer"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
+            <h3 className="mb-2 text-xl font-semibold">
+              Tiny House Heat Transfer Simulation
+            </h3>
             <p className="mb-4 text-zinc-400">
-              Modeled heat transfer and energy usage in a tiny house system
-              using engineering assumptions and parameter testing.
+              Modeled how insulation, window area, airflow, and heater
+              temperature affect indoor heating and energy usage.
             </p>
             <p className="text-sm text-zinc-500">
-              Skills: heat transfer, MATLAB, engineering assumptions
+              Skills: heat transfer, MATLAB, simulation, parameter testing
             </p>
-          </div>
+          </a>
 
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600">
+          <a
+            href="/projects/materials-testing"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
             <h3 className="mb-2 text-xl font-semibold">Materials Testing</h3>
             <p className="mb-4 text-zinc-400">
               Analyzed material behavior through stress-strain graphs, grain
@@ -156,7 +170,7 @@ export default function Home() {
             <p className="text-sm text-zinc-500">
               Skills: materials analysis, data interpretation, lab reporting
             </p>
-          </div>
+          </a>
         </div>
       </section>
 

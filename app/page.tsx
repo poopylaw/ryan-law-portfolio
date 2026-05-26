@@ -14,6 +14,9 @@ export default function Home() {
             <a href="#skills" className="hover:text-white">
               Skills
             </a>
+            <a href="#experience" className="hover:text-white">
+              Experience
+            </a>
             <a href="#projects" className="hover:text-white">
               Projects
             </a>
@@ -34,9 +37,10 @@ export default function Home() {
         </h1>
 
         <p className="mb-8 max-w-2xl text-lg leading-8 text-zinc-300">
-          I am an aspiring mechanical engineer interested in design,
-          prototyping, robotics, testing, and solving real engineering problems
-          through hands-on projects.
+          Mechanical engineering transfer student focused on design,
+          fabrication, robotics, embedded systems, and experimental testing. I
+          build hands-on projects that combine CAD, coding, prototyping, and
+          engineering analysis.
         </p>
 
         <div className="flex flex-wrap gap-4">
@@ -45,6 +49,15 @@ export default function Home() {
             className="rounded-full bg-white px-6 py-3 font-medium text-black transition hover:bg-zinc-200"
           >
             View Projects
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-zinc-700 px-6 py-3 font-medium text-white transition hover:bg-zinc-900"
+          >
+            View Resume
           </a>
 
           <a
@@ -64,11 +77,11 @@ export default function Home() {
         <h2 className="mb-4 text-3xl font-bold">About Me</h2>
 
         <p className="max-w-3xl text-lg leading-8 text-zinc-300">
-          I am a mechanical engineering transfer student interested in
-          mechanical design, robotics, prototyping, and engineering
-          problem-solving. Through hands-on projects, coding, simulations, and
-          lab work, I have built experience turning ideas into functional systems
-          and improving designs through testing and iteration.
+          I am an incoming mechanical engineering transfer student at UC Irvine
+          with experience in robotics, CAD design, fabrication,
+          microfabrication, programming, and embedded systems. My work focuses
+          on turning ideas into functional systems through design iteration,
+          testing, and hands-on engineering.
         </p>
       </section>
 
@@ -81,26 +94,85 @@ export default function Home() {
 
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
-            <h3 className="mb-3 text-xl font-semibold">Software</h3>
+            <h3 className="mb-3 text-xl font-semibold">Programming</h3>
             <p className="text-zinc-400">
-              MATLAB, Java, GitHub, Next.js, TypeScript, Tailwind CSS
+              MATLAB, Python, Arduino, ESP32 programming, embedded control,
+              sensor processing
             </p>
           </div>
 
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
-            <h3 className="mb-3 text-xl font-semibold">Engineering</h3>
+            <h3 className="mb-3 text-xl font-semibold">CAD & Design</h3>
             <p className="text-zinc-400">
-              Mechanical design, prototyping, testing, data analysis,
-              simulations
+              SolidWorks, Fusion 360, mechanical design, subsystem integration,
+              design iteration
             </p>
           </div>
 
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
-            <h3 className="mb-3 text-xl font-semibold">Tools & Hardware</h3>
+            <h3 className="mb-3 text-xl font-semibold">
+              Hardware & Fabrication
+            </h3>
             <p className="text-zinc-400">
-              Raspberry Pi, Sense HAT, sensors, robotics systems, lab equipment
+              Raspberry Pi, Sense HAT, 3D printing, laser cutting, sensors,
+              cleanroom fabrication
             </p>
           </div>
+        </div>
+      </section>
+
+      <section id="experience" className="mx-auto max-w-5xl px-6 py-20">
+        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-zinc-500">
+          Experience
+        </p>
+
+        <h2 className="mb-8 text-3xl font-bold">Engineering Experience</h2>
+
+        <div className="grid gap-6">
+          <a
+            href="/projects/ucla-cnsi"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
+            <div className="mb-3 flex flex-col justify-between gap-2 md:flex-row md:items-center">
+              <h3 className="text-xl font-semibold">
+                UCLA CNSI Microfabrication and Nanopatterning Program
+              </h3>
+              <p className="text-sm text-zinc-500">Oct. 2025 – Dec. 2025</p>
+            </div>
+
+            <p className="mb-4 text-zinc-400">
+              Fabricated wafer-based microstructures using photolithography,
+              thin-film deposition, wet etching, and electron-beam lithography
+              in cleanroom environments.
+            </p>
+
+            <p className="text-sm text-zinc-500">
+              Skills: cleanroom processing, microfabrication, microscopy,
+              process optimization
+            </p>
+          </a>
+
+          <a
+            href="/projects/vex-robotics"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
+            <div className="mb-3 flex flex-col justify-between gap-2 md:flex-row md:items-center">
+              <h3 className="text-xl font-semibold">
+                Mt. SAC VEX Robotics Team Captain
+              </h3>
+              <p className="text-sm text-zinc-500">Dec. 2024 – Dec. 2025</p>
+            </div>
+
+            <p className="mb-4 text-zinc-400">
+              Led mechanical design for a collegiate VEX robot using SolidWorks
+              and Fusion 360 while managing team workflow, prototyping, testing,
+              and subsystem integration.
+            </p>
+
+            <p className="text-sm text-zinc-500">
+              Skills: robotics, CAD, leadership, fabrication, system integration
+            </p>
+          </a>
         </div>
       </section>
 
@@ -113,62 +185,84 @@ export default function Home() {
 
         <div className="grid gap-6 md:grid-cols-2">
           <a
-            href="/projects/vex-robotics"
-            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
-          >
-            <h3 className="mb-2 text-xl font-semibold">VEX Robotics Design</h3>
-            <p className="mb-4 text-zinc-400">
-              Mechanical design improvements, prototyping, testing, and
-              iteration for robotics competition performance.
-            </p>
-            <p className="text-sm text-zinc-500">
-              Skills: mechanical design, teamwork, troubleshooting, prototyping
-            </p>
-          </a>
-
-          <a
-            href="/projects/matlab-projects"
+            href="/projects/rc-vehicle-aerodynamics"
             className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
           >
             <h3 className="mb-2 text-xl font-semibold">
-              MATLAB Diffusion Simulation
+              RC Vehicle Aerodynamics Testing & Optimization
             </h3>
             <p className="mb-4 text-zinc-400">
-              Modeled particle diffusion across connected boxes using MATLAB
-              arrays, loops, probability, and animated bar graphs.
+              Designed and built an RC car from scratch using SolidWorks,
+              3D-printed components, and an ESP32-based control system.
             </p>
             <p className="text-sm text-zinc-500">
-              Skills: MATLAB, modeling, simulation, data analysis
+              Skills: ESP32, SolidWorks, 3D printing, aerodynamics
             </p>
           </a>
 
           <a
-            href="/projects/tiny-house-heat-transfer"
+            href="/projects/broncohacks-posture-device"
             className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
           >
             <h3 className="mb-2 text-xl font-semibold">
-              Tiny House Heat Transfer Simulation
+              BroncoHacks Posture Device
             </h3>
             <p className="mb-4 text-zinc-400">
-              Modeled how insulation, window area, airflow, and heater
-              temperature affect indoor heating and energy usage.
+              Built a posture-monitoring prototype using a Raspberry Pi,
+              distance sensor, breadboarded circuitry, Python interface, and
+              3D-printed enclosure.
             </p>
             <p className="text-sm text-zinc-500">
-              Skills: heat transfer, MATLAB, simulation, parameter testing
+              Skills: Python, Raspberry Pi, sensors, rapid prototyping
             </p>
           </a>
 
           <a
-            href="/projects/materials-testing"
+            href="/projects/folding-knife-design"
             className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
           >
-            <h3 className="mb-2 text-xl font-semibold">Materials Testing</h3>
+            <h3 className="mb-2 text-xl font-semibold">
+              Folding Knife Design & Fabrication
+            </h3>
             <p className="mb-4 text-zinc-400">
-              Analyzed material behavior through stress-strain graphs, grain
-              size analysis, and technical lab reporting.
+              Designed and fabricated a folding knife using Magnacut steel,
+              SolidWorks, fabrication methods, and a back lock mechanism.
             </p>
             <p className="text-sm text-zinc-500">
-              Skills: materials analysis, data interpretation, lab reporting
+              Skills: SolidWorks, fabrication, tolerances, mechanical design
+            </p>
+          </a>
+
+          <a
+            href="/projects/uas-drone-coding"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600"
+          >
+            <h3 className="mb-2 text-xl font-semibold">
+              UAS Drone Competition Coding
+            </h3>
+            <p className="mb-4 text-zinc-400">
+              Supported a UAS competition project through coding, system logic,
+              and subsystem integration for mission-focused flight operations.
+            </p>
+            <p className="text-sm text-zinc-500">
+              Skills: programming, systems engineering, integration, testing
+            </p>
+          </a>
+
+          <a
+            href="/projects/raspberry-pi-sense-hat"
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-zinc-600 md:col-span-2"
+          >
+            <h3 className="mb-2 text-xl font-semibold">
+              Raspberry Pi Sense HAT Controller
+            </h3>
+            <p className="mb-4 text-zinc-400">
+              Developed a MATLAB-based control interface for an 8x8 LED matrix
+              using joystick and accelerometer inputs.
+            </p>
+            <p className="text-sm text-zinc-500">
+              Skills: MATLAB, Raspberry Pi, Sense HAT, sensor processing,
+              embedded control
             </p>
           </a>
         </div>
@@ -182,13 +276,12 @@ export default function Home() {
         <h2 className="mb-4 text-3xl font-bold">Contact Me</h2>
 
         <p className="mb-6 max-w-2xl text-zinc-400">
-          I am currently building my engineering portfolio and looking for
-          opportunities to grow through projects, internships, and hands-on
-          engineering experience.
+          I am interested in mechanical design, robotics, embedded systems,
+          fabrication, and hands-on engineering opportunities.
         </p>
 
         <div className="space-y-2 text-zinc-300">
-          <p>Email: your-email@example.com</p>
+          <p>Email: ryanlaw0329@gmail.com</p>
           <p>GitHub: github.com/poopylaw</p>
           <p>LinkedIn: Add your LinkedIn here</p>
         </div>

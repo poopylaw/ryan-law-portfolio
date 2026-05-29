@@ -4,9 +4,18 @@ export default function UclaCnsiPage() {
   return (
     <PageBackground>
       <section className="mx-auto max-w-4xl px-6 py-20">
-        <a href="/" className="mb-8 inline-block text-sky-300/80 hover:text-white">
-          ← Back to Home
-        </a>
+        <div className="mb-8 flex flex-wrap gap-4">
+          <a href="/" className="inline-block text-sky-300/80 hover:text-white">
+            ← Back to Home
+          </a>
+
+          <a
+            href="/experience"
+            className="inline-block text-sky-300/80 hover:text-white"
+          >
+            ← Back to Engineering Work
+          </a>
+        </div>
 
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300/70">
           Experience

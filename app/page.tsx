@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative z-10 mx-auto flex max-w-6xl flex-col justify-center px-8 pt-36 pb-16">
+      <section className="relative z-10 mx-auto max-w-6xl px-8 pt-36 pb-8">
         <p className="mb-4 text-sm uppercase tracking-[0.45em] text-sky-300/90">
           Mechanical Engineering Portfolio
         </p>
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       {/* Cards */}
-      <section className="relative z-10 mx-auto -mt-4 grid max-w-6xl gap-8 px-8 pb-24 md:grid-cols-3">
+      <section className="relative z-10 mx-auto mt-12 grid max-w-6xl gap-8 px-8 pb-24 md:grid-cols-3">
         <a
           href="/experience"
           className="rounded-2xl border border-sky-400/10 bg-zinc-950/80 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"

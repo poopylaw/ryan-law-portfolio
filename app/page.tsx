@@ -16,50 +16,52 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative z-10 mx-auto flex min-h-screen max-w-5xl flex-col justify-center px-6 py-24">
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-sky-300/80">
+      <section className="relative z-10 mx-auto flex max-w-6xl flex-col justify-center px-8 pt-36 pb-16">
+        <p className="mb-4 text-sm uppercase tracking-[0.45em] text-sky-300/90">
           Mechanical Engineering Portfolio
         </p>
 
-        <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-7xl">
+        <h1 className="mb-6 text-6xl font-bold tracking-tight md:text-8xl">
           Ryan Law
         </h1>
 
-        <p className="mb-8 max-w-2xl text-lg leading-8 text-zinc-300">
+        <p className="mb-10 max-w-3xl text-xl leading-9 text-zinc-300">
           Mechanical engineering transfer student focused on design,
           fabrication, robotics, embedded systems, and experimental testing. I
           build hands-on projects that combine CAD, coding, prototyping, and
           engineering analysis.
         </p>
 
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-5">
           <a
             href="/projects"
-            className="rounded-full bg-sky-400 px-6 py-3 text-sm font-semibold text-black transition hover:bg-sky-300"
+            className="rounded-full bg-sky-400 px-8 py-4 text-base font-semibold text-black transition hover:bg-sky-300"
           >
             View Projects
           </a>
 
           <a
             href="/contact"
-            className="rounded-full border border-sky-400/40 px-6 py-3 text-sm font-semibold text-sky-200 transition hover:border-sky-300 hover:bg-sky-400/10"
+            className="rounded-full border border-sky-400/50 px-8 py-4 text-base font-semibold text-sky-200 transition hover:border-sky-300 hover:bg-sky-400/10"
           >
             Contact Me
           </a>
         </div>
       </section>
 
-      {/* Featured Sections */}
-      <section className="relative z-10 mx-auto grid max-w-5xl gap-6 px-6 pb-24 md:grid-cols-3">
+      {/* Cards */}
+      <section className="relative z-10 mx-auto -mt-4 grid max-w-6xl gap-8 px-8 pb-24 md:grid-cols-3">
         <a
           href="/experience"
-          className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          className="rounded-2xl border border-sky-400/10 bg-zinc-950/80 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
         >
-          <p className="mb-2 text-sm uppercase tracking-[0.25em] text-sky-300/70">
+          <p className="mb-4 text-sm uppercase tracking-[0.4em] text-sky-300/80">
             Experience
           </p>
-          <h2 className="mb-3 text-xl font-semibold">Engineering Work</h2>
-          <p className="text-sm leading-6 text-zinc-400">
+
+          <h2 className="mb-5 text-2xl font-semibold">Engineering Work</h2>
+
+          <p className="text-base leading-8 text-zinc-400">
             CNSI microfabrication, VEX Robotics leadership, CAD, fabrication,
             and system integration.
           </p>
@@ -67,13 +69,15 @@ export default function Home() {
 
         <a
           href="/projects"
-          className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          className="rounded-2xl border border-sky-400/10 bg-zinc-950/80 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
         >
-          <p className="mb-2 text-sm uppercase tracking-[0.25em] text-sky-300/70">
+          <p className="mb-4 text-sm uppercase tracking-[0.4em] text-sky-300/80">
             Projects
           </p>
-          <h2 className="mb-3 text-xl font-semibold">Hands-On Builds</h2>
-          <p className="text-sm leading-6 text-zinc-400">
+
+          <h2 className="mb-5 text-2xl font-semibold">Hands-On Builds</h2>
+
+          <p className="text-base leading-8 text-zinc-400">
             RC vehicle aerodynamics, tiny house heat transfer, Raspberry Pi,
             BroncoHacks, and more.
           </p>
@@ -81,13 +85,15 @@ export default function Home() {
 
         <a
           href="/skills"
-          className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          className="rounded-2xl border border-sky-400/10 bg-zinc-950/80 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
         >
-          <p className="mb-2 text-sm uppercase tracking-[0.25em] text-sky-300/70">
+          <p className="mb-4 text-sm uppercase tracking-[0.4em] text-sky-300/80">
             Skills
           </p>
-          <h2 className="mb-3 text-xl font-semibold">Technical Stack</h2>
-          <p className="text-sm leading-6 text-zinc-400">
+
+          <h2 className="mb-5 text-2xl font-semibold">Technical Stack</h2>
+
+          <p className="text-base leading-8 text-zinc-400">
             SolidWorks, Fusion 360, MATLAB, Python, Arduino, ESP32, Raspberry
             Pi, and 3D printing.
           </p>

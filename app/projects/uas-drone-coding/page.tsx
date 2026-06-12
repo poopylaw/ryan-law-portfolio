@@ -3,7 +3,7 @@ import PageBackground from "@/app/components/PageBackground";
 export default function UasDroneCodingPage() {
   return (
     <PageBackground>
-      <section className="mx-auto max-w-4xl px-6 py-20">
+      <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-8 flex flex-wrap gap-4">
           <a href="/" className="inline-block text-sky-300/80 hover:text-white">
             ← Back to Home
@@ -21,61 +21,171 @@ export default function UasDroneCodingPage() {
           Project
         </p>
 
-        <h1 className="mb-6 text-5xl font-bold">
-          UAS Drone Competition Coding
+        <h1 className="mb-6 text-5xl font-bold md:text-6xl">
+          UAS Drone Competition
         </h1>
 
-        <p className="mb-10 text-lg leading-8 text-zinc-300">
-          I supported a UAS drone competition project through coding, system
-          logic, and subsystem integration. My focus was on contributing to the
-          software and control side of the project so the drone system could
-          support mission-focused flight operations.
+        <p className="mb-10 max-w-4xl text-lg leading-8 text-zinc-300">
+          As Mechanical Lead for the Mt. SAC UAV Team, I helped design,
+          integrate, and validate an autonomous aerial platform for the 2026
+          Collegiate Unmanned Aerial Systems Competition. Our team was crowned
+          USA Champion and placed 2nd overall at the World Unmanned Aerial
+          Vehicle Championship.
         </p>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        {/* Main Drone Image */}
+        <div className="mb-12 overflow-hidden rounded-3xl border border-sky-400/10 bg-zinc-950/70 shadow-2xl shadow-sky-950/20 backdrop-blur">
+          <img
+            src="/projects/uas-drone-coding/drone.png"
+            alt="Mt. SAC UAV competition drone"
+            className="h-96 w-full object-cover"
+          />
+        </div>
+
+        {/* Competition Results */}
+        <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur">
-            <h2 className="mb-3 text-2xl font-semibold">Goal</h2>
+            <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300/70">
+              Result
+            </p>
+            <h2 className="mb-3 text-3xl font-semibold">USA Champion</h2>
             <p className="text-zinc-400">
-              Develop and support code that helped the drone system perform
-              mission-related operations reliably during competition preparation.
+              Highest-ranked delegation representing the United States at the
+              world championship.
             </p>
           </div>
 
           <div className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur">
-            <h2 className="mb-3 text-2xl font-semibold">Tools Used</h2>
+            <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300/70">
+              Placement
+            </p>
+            <h2 className="mb-3 text-3xl font-semibold">2nd Overall</h2>
             <p className="text-zinc-400">
-              Programming, system logic, subsystem integration, testing,
-              troubleshooting, and UAS competition development.
+              Placed second overall against more than 30 university teams from
+              around the world.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur">
+            <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300/70">
+              Precision
+            </p>
+            <h2 className="mb-3 text-3xl font-semibold">7–18 cm</h2>
+            <p className="text-zinc-400">
+              Reported waypoint tracking error range during competition
+              performance.
             </p>
           </div>
         </div>
 
-        <section className="mt-12">
-          <h2 className="mb-4 text-3xl font-bold">Coding Contribution</h2>
-          <p className="leading-8 text-zinc-300">
-            My contribution focused on the programming side of the drone
-            project. I worked on logic that supported system behavior,
-            integration, and testing so that the drone could operate as part of
-            a larger competition-ready system.
-          </p>
+        {/* Project Overview */}
+        <section className="mt-12 rounded-3xl border border-sky-400/10 bg-zinc-950/70 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur">
+          <h2 className="mb-4 text-3xl font-bold">Project Overview</h2>
+
+          <div className="space-y-5 leading-8 text-zinc-300">
+            <p>
+              The Mt. SAC UAV Team developed an autonomous aerial system
+              tailored to the demands of collegiate unmanned aerial systems
+              competition. The aircraft needed to complete mission objectives
+              involving autonomous flight, accurate waypoint tracking, payload
+              deployment, and target-identification support.
+            </p>
+
+            <p>
+              During the championship, the system demonstrated reliable mission
+              execution across multiple competition categories, including
+              accurate waypoint tracking, time trial performance, mechanical
+              payload deployment, and target-identification support.
+            </p>
+          </div>
         </section>
 
-        <section className="mt-12">
-          <h2 className="mb-4 text-3xl font-bold">System Integration</h2>
-          <p className="leading-8 text-zinc-300">
-            The project required connecting code with the physical drone system.
-            I practiced thinking about how software decisions affect hardware
-            behavior, mission reliability, and team testing during development.
-          </p>
+        {/* My Role */}
+        <section className="mt-12 rounded-3xl border border-sky-400/10 bg-zinc-950/70 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur">
+          <h2 className="mb-6 text-3xl font-bold">
+            My Role as Mechanical Lead
+          </h2>
+
+          <div className="grid gap-5 md:grid-cols-2">
+            <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              <h3 className="mb-2 text-xl font-semibold">
+                Mechanical Integration
+              </h3>
+              <p className="leading-7 text-zinc-400">
+                Helped integrate mechanical subsystems into a competition-ready
+                autonomous aerial platform.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              <h3 className="mb-2 text-xl font-semibold">
+                Payload Deployment
+              </h3>
+              <p className="leading-7 text-zinc-400">
+                Supported the mechanical payload deployment system used for
+                mission-specific competition objectives.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              <h3 className="mb-2 text-xl font-semibold">
+                Testing and Validation
+              </h3>
+              <p className="leading-7 text-zinc-400">
+                Assisted with physical testing, troubleshooting, reliability
+                checks, and competition-readiness improvements.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              <h3 className="mb-2 text-xl font-semibold">
+                Cross-Team Collaboration
+              </h3>
+              <p className="leading-7 text-zinc-400">
+                Worked with software and flight operations leads to connect
+                mechanical design choices with autonomous mission requirements.
+              </p>
+            </div>
+          </div>
         </section>
 
-        <section className="mt-12">
+        {/* Technical Highlights */}
+        <section className="mt-12 rounded-3xl border border-sky-400/10 bg-zinc-950/70 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur">
+          <h2 className="mb-6 text-3xl font-bold">Technical Highlights</h2>
+
+          <ul className="grid gap-4 leading-8 text-zinc-300 md:grid-cols-2">
+            <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              Autonomous waypoint tracking with reported error range between 7
+              and 18 centimeters.
+            </li>
+
+            <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              Reliable autonomous mission execution across multiple competition
+              categories.
+            </li>
+
+            <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              Mechanical payload deployment for mission-specific competition
+              objectives.
+            </li>
+
+            <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
+              Target-identification support through integration with custom
+              software and vision systems.
+            </li>
+          </ul>
+        </section>
+
+        {/* What I Learned */}
+        <section className="mt-12 rounded-3xl border border-sky-400/10 bg-zinc-950/70 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur">
           <h2 className="mb-4 text-3xl font-bold">What I Learned</h2>
+
           <p className="leading-8 text-zinc-300">
-            This project helped me build experience with engineering teamwork,
-            coding for physical systems, and troubleshooting during integration.
-            It also strengthened my understanding of how software and hardware
-            work together in autonomous or remotely operated systems.
+            This competition strengthened my experience with engineering
+            teamwork, mechanical design for autonomous systems, physical system
+            testing, and troubleshooting under competition pressure. It also
+            showed me how mechanical design, software, flight operations, and
+            testing must come together for a reliable real-world robotic system.
           </p>
         </section>
       </section>

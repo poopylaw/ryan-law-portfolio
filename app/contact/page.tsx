@@ -7,7 +7,10 @@ export default function ContactPage() {
       <Navbar />
 
       <section className="mx-auto max-w-5xl px-6 py-28">
-        <a href="/" className="mb-8 inline-block text-sky-300/80 hover:text-white">
+        <a
+          href="/"
+          className="mb-8 inline-block text-sky-300/80 hover:text-white"
+        >
           ← Back to Home
         </a>
 
@@ -33,6 +36,16 @@ export default function ContactPage() {
           </a>
 
           <a
+            href="https://www.linkedin.com/in/ryan-law-020642260/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          >
+            <h2 className="mb-2 text-xl font-semibold">LinkedIn</h2>
+            <p className="text-zinc-400">linkedin.com/in/ryan-law-020642260</p>
+          </a>
+
+          <a
             href="https://github.com/poopylaw"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,11 +54,6 @@ export default function ContactPage() {
             <h2 className="mb-2 text-xl font-semibold">GitHub</h2>
             <p className="text-zinc-400">github.com/poopylaw</p>
           </a>
-
-          <div className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur">
-            <h2 className="mb-2 text-xl font-semibold">LinkedIn</h2>
-            <p className="text-zinc-400">Add your LinkedIn link here</p>
-          </div>
 
           <a
             href="/resume.pdf"

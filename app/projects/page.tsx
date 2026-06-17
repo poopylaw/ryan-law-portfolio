@@ -72,14 +72,16 @@ export default function ProjectsPage() {
             className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
           >
             <h2 className="mb-2 text-xl font-semibold">
-              UAS Drone Competition Coding
+              UAS Drone Competition Project — 2nd Place Overall, 2026 C-UASC
             </h2>
             <p className="mb-4 text-zinc-400">
-              Supported a UAS competition project through coding, system logic,
-              and subsystem integration for mission-focused flight operations.
+              Served as systems engineer and 3D design engineer for the Mt.
+              SAC UAV Team, the highest-placing U.S. team at the 2026
+              California Unmanned Aerial Systems Competition (C-UASC).
             </p>
             <p className="text-sm text-zinc-500">
-              Skills: programming, systems engineering, integration, testing
+              Skills: systems engineering, 3D design, payload mechanism, CAD,
+              fabrication
             </p>
           </a>
 

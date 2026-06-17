@@ -26,11 +26,11 @@ export default function UasDroneCodingPage() {
         </h1>
 
         <p className="mb-10 max-w-4xl text-lg leading-8 text-zinc-300">
-          As Mechanical Lead for the Mt. SAC UAV Team, I helped design,
-          integrate, and validate an autonomous aerial platform for the 2026
-          Collegiate Unmanned Aerial Systems Competition. Our team was crowned
-          USA Champion and placed 2nd overall at the World Unmanned Aerial
-          Vehicle Championship.
+          As Systems Engineer and 3D Design Engineer for the Mt. SAC UAV Team,
+          I helped design, integrate, and validate an autonomous aerial
+          platform for the 2026 California Unmanned Aerial Systems Competition
+          (C-UASC). Our team was crowned USA Champion and placed 2nd overall
+          at the World Unmanned Aerial Vehicle Championship.
         </p>
 
         {/* Main Drone Image */}
@@ -103,13 +103,13 @@ export default function UasDroneCodingPage() {
         {/* My Role */}
         <section className="mt-12 rounded-3xl border border-sky-400/10 bg-zinc-950/70 p-8 shadow-2xl shadow-sky-950/20 backdrop-blur">
           <h2 className="mb-6 text-3xl font-bold">
-            My Role as Mechanical Lead
+            My Role as Systems Engineer & 3D Design Engineer
           </h2>
 
           <div className="grid gap-5 md:grid-cols-2">
             <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
               <h3 className="mb-2 text-xl font-semibold">
-                Mechanical Integration
+                Systems Integration
               </h3>
               <p className="leading-7 text-zinc-400">
                 Helped integrate mechanical subsystems into a competition-ready
@@ -122,8 +122,9 @@ export default function UasDroneCodingPage() {
                 Payload Deployment
               </h3>
               <p className="leading-7 text-zinc-400">
-                Supported the mechanical payload deployment system used for
-                mission-specific competition objectives.
+                Designed a servo-actuated payload drop mechanism that achieved
+                fully autonomous payload delivery within 5 ft of target center
+                during competition missions.
               </p>
             </div>
 
@@ -132,8 +133,8 @@ export default function UasDroneCodingPage() {
                 Testing and Validation
               </h3>
               <p className="leading-7 text-zinc-400">
-                Assisted with physical testing, troubleshooting, reliability
-                checks, and competition-readiness improvements.
+                Applied CAD modeling, fabrication, and subsystem integration to
+                validate mechanism reliability ahead of flight testing.
               </p>
             </div>
 
@@ -143,7 +144,7 @@ export default function UasDroneCodingPage() {
               </h3>
               <p className="leading-7 text-zinc-400">
                 Worked with software and flight operations leads to connect
-                mechanical design choices with autonomous mission requirements.
+                design choices with autonomous mission requirements.
               </p>
             </div>
           </div>
@@ -165,8 +166,8 @@ export default function UasDroneCodingPage() {
             </li>
 
             <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
-              Mechanical payload deployment for mission-specific competition
-              objectives.
+              Servo-actuated payload drop mechanism delivering payloads within
+              5 ft of target center, fully autonomously.
             </li>
 
             <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">

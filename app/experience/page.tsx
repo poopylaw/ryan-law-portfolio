@@ -47,9 +47,9 @@ export default function ExperiencePage() {
           >
             <div className="mb-3 flex flex-col justify-between gap-2 md:flex-row md:items-center">
               <h2 className="text-xl font-semibold">
-                Mt. SAC VEX Robotics Team Captain
+                Mt. SAC VEX Robotics Design Lead
               </h2>
-              <p className="text-sm text-zinc-500">Dec. 2024 – Dec. 2025</p>
+              <p className="text-sm text-zinc-500">Dec. 2024 – Mar. 2025</p>
             </div>
 
             <p className="mb-4 text-zinc-400">

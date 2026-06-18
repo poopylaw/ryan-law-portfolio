@@ -80,8 +80,7 @@ export default function ProjectsPage() {
               California Unmanned Aerial Systems Competition (C-UASC).
             </p>
             <p className="text-sm text-zinc-500">
-              Skills: systems engineering, 3D design, payload mechanism, CAD,
-              fabrication
+              Skills: systems engineering, payload mechanism, CAD, C++
             </p>
           </a>
 

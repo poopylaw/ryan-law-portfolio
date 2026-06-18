@@ -29,8 +29,8 @@ export default function UasDroneCodingPage() {
           As Systems Engineer and 3D Design Engineer for the Mt. SAC UAV Team,
           I helped design, integrate, and validate an autonomous aerial
           platform for the 2026 California Unmanned Aerial Systems Competition
-          (C-UASC). Our team was crowned USA Champion and placed 2nd overall
-          at the World Unmanned Aerial Vehicle Championship.
+          (C-UASC). Our team was the highest-placing U.S. delegation, finishing
+          2nd overall behind the Technical University of Denmark.
         </p>
 
         {/* Main Drone Image */}
@@ -48,10 +48,9 @@ export default function UasDroneCodingPage() {
             <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300/70">
               Result
             </p>
-            <h2 className="mb-3 text-3xl font-semibold">USA Champion</h2>
+            <h2 className="mb-3 text-3xl font-semibold">Top U.S. Team</h2>
             <p className="text-zinc-400">
-              Highest-ranked delegation representing the United States at the
-              world championship.
+              Highest-ranked U.S. team at the 2026 C-UASC competition.
             </p>
           </div>
 
@@ -61,8 +60,7 @@ export default function UasDroneCodingPage() {
             </p>
             <h2 className="mb-3 text-3xl font-semibold">2nd Overall</h2>
             <p className="text-zinc-400">
-              Placed second overall against more than 30 university teams from
-              around the world.
+              Finished 2nd overall behind the Technical University of Denmark.
             </p>
           </div>
 
@@ -109,32 +107,34 @@ export default function UasDroneCodingPage() {
           <div className="grid gap-5 md:grid-cols-2">
             <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
               <h3 className="mb-2 text-xl font-semibold">
-                Systems Integration
+                CAD Modeling
               </h3>
               <p className="leading-7 text-zinc-400">
-                Helped integrate mechanical subsystems into a competition-ready
-                autonomous aerial platform.
+                Modeled the aircraft&apos;s payload mount and servo-actuated
+                pin-release mechanism in SolidWorks to support a 160g payload
+                delivery system.
               </p>
             </div>
 
             <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
               <h3 className="mb-2 text-xl font-semibold">
-                Payload Deployment
+                Payload Drop Programming
               </h3>
               <p className="leading-7 text-zinc-400">
-                Designed a servo-actuated payload drop mechanism that achieved
-                fully autonomous payload delivery within 5 ft of target center
-                during competition missions.
+                Programmed the payload drop mechanism in C++ with a
+                photoresistor sensor trigger, achieving a 5 ft target offset
+                during fully autonomous deployment.
               </p>
             </div>
 
             <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
               <h3 className="mb-2 text-xl font-semibold">
-                Testing and Validation
+                Systems Engineering
               </h3>
               <p className="leading-7 text-zinc-400">
-                Applied CAD modeling, fabrication, and subsystem integration to
-                validate mechanism reliability ahead of flight testing.
+                Coordinated subsystem integration between the payload
+                mechanism, flight control, and mission software to keep the
+                platform competition-ready.
               </p>
             </div>
 
@@ -166,8 +166,9 @@ export default function UasDroneCodingPage() {
             </li>
 
             <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
-              Servo-actuated payload drop mechanism delivering payloads within
-              5 ft of target center, fully autonomously.
+              Servo-actuated payload drop mechanism, programmed in C++,
+              delivering payloads within 5 ft of target center, fully
+              autonomously.
             </li>
 
             <li className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
@@ -183,10 +184,11 @@ export default function UasDroneCodingPage() {
 
           <p className="leading-8 text-zinc-300">
             This competition strengthened my experience with engineering
-            teamwork, mechanical design for autonomous systems, physical system
-            testing, and troubleshooting under competition pressure. It also
-            showed me how mechanical design, software, flight operations, and
-            testing must come together for a reliable real-world robotic system.
+            teamwork, mechanical design for autonomous systems, embedded
+            programming, physical system testing, and troubleshooting under
+            competition pressure. It also showed me how mechanical design,
+            software, flight operations, and testing must come together for a
+            reliable real-world robotic system.
           </p>
         </section>
       </section>

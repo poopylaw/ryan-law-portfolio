@@ -19,6 +19,32 @@ export default function ExperiencePage() {
 
         <div className="grid gap-6">
           <a
+            href="/projects/uas-drone-coding"
+            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          >
+            <div className="mb-3 flex flex-col justify-between gap-2 md:flex-row md:items-center">
+              <h2 className="text-xl font-semibold">
+                Mt. SAC UAV Team — Systems Engineer & 3D Design Engineer
+              </h2>
+              <p className="text-sm text-zinc-500">Jan. 2026 – Jun. 2026</p>
+            </div>
+
+            <p className="mb-4 text-zinc-400">
+              Served as systems engineer and 3D design engineer for the
+              highest-placing U.S. team at the 2026 California Unmanned Aerial
+              Systems Competition, finishing 2nd overall behind the Technical
+              University of Denmark. Designed a servo-actuated payload drop
+              mechanism in SolidWorks and programmed it in C++, achieving fully
+              autonomous delivery within 5 ft of target center.
+            </p>
+
+            <p className="text-sm text-zinc-500">
+              Skills: SolidWorks, C++, systems integration, autonomous systems,
+              fabrication, flight testing
+            </p>
+          </a>
+
+          <a
             href="/projects/ucla-cnsi"
             className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
           >
@@ -32,12 +58,39 @@ export default function ExperiencePage() {
             <p className="mb-4 text-zinc-400">
               Fabricated wafer-based microstructures using photolithography,
               thin-film deposition, wet etching, and electron-beam lithography
-              in cleanroom environments.
+              in cleanroom environments. Optimized fabrication workflows and
+              characterized features via microscopy to refine subsequent
+              iterations.
             </p>
 
             <p className="text-sm text-zinc-500">
               Skills: cleanroom processing, microfabrication, microscopy,
               process optimization
+            </p>
+          </a>
+
+          <a
+            href="/projects/aero-research"
+            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
+          >
+            <div className="mb-3 flex flex-col justify-between gap-2 md:flex-row md:items-center">
+              <h2 className="text-xl font-semibold">
+                Research Assistant — Aerodynamic Testing & Experimental Analysis
+              </h2>
+              <p className="text-sm text-zinc-500">May 2025 – Jun. 2025</p>
+            </div>
+
+            <p className="mb-4 text-zinc-400">
+              Designed, assembled, and validated a vehicle-mounted aerodynamic
+              test rig using CAD-designed mounts, 3D-printed components, and
+              sensor instrumentation to characterize airfoil lift and drag under
+              real driving conditions. Analyzed results in MATLAB to drive
+              iterative design refinements.
+            </p>
+
+            <p className="text-sm text-zinc-500">
+              Skills: aerodynamics, test rig design, sensor instrumentation,
+              MATLAB, data acquisition, 3D printing
             </p>
           </a>
 
@@ -55,7 +108,8 @@ export default function ExperiencePage() {
             <p className="mb-4 text-zinc-400">
               Led mechanical design for a collegiate VEX robot using SolidWorks
               and Fusion 360 while managing team workflow, prototyping, testing,
-              and subsystem integration.
+              and subsystem integration. Mentored newer members in CAD,
+              fabrication, and system integration.
             </p>
 
             <p className="text-sm text-zinc-500">

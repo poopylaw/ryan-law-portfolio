@@ -10,15 +10,15 @@ export default function UasDroneCodingPage() {
           </a>
 
           <a
-            href="/projects"
+            href="/experience"
             className="inline-block text-sky-300/80 hover:text-white"
           >
-            ← Back to Projects
+            ← Back to Experience
           </a>
         </div>
 
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300/70">
-          Project
+          Experience
         </p>
 
         <h1 className="mb-6 text-5xl font-bold md:text-6xl">
@@ -106,9 +106,7 @@ export default function UasDroneCodingPage() {
 
           <div className="grid gap-5 md:grid-cols-2">
             <div className="rounded-2xl border border-sky-400/10 bg-black/30 p-5">
-              <h3 className="mb-2 text-xl font-semibold">
-                CAD Modeling
-              </h3>
+              <h3 className="mb-2 text-xl font-semibold">CAD Modeling</h3>
               <p className="leading-7 text-zinc-400">
                 Modeled the aircraft&apos;s payload mount and servo-actuated
                 pin-release mechanism in SolidWorks to support a 160g payload

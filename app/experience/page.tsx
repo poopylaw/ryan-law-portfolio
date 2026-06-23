@@ -70,31 +70,6 @@ export default function ExperiencePage() {
           </a>
 
           <a
-            href="/projects/aero-research"
-            className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
-          >
-            <div className="mb-3 flex flex-col justify-between gap-2 md:flex-row md:items-center">
-              <h2 className="text-xl font-semibold">
-                Research Assistant — Aerodynamic Testing & Experimental Analysis
-              </h2>
-              <p className="text-sm text-zinc-500">May 2025 – Jun. 2025</p>
-            </div>
-
-            <p className="mb-4 text-zinc-400">
-              Designed, assembled, and validated a vehicle-mounted aerodynamic
-              test rig using CAD-designed mounts, 3D-printed components, and
-              sensor instrumentation to characterize airfoil lift and drag under
-              real driving conditions. Analyzed results in MATLAB to drive
-              iterative design refinements.
-            </p>
-
-            <p className="text-sm text-zinc-500">
-              Skills: aerodynamics, test rig design, sensor instrumentation,
-              MATLAB, data acquisition, 3D printing
-            </p>
-          </a>
-
-          <a
             href="/projects/vex-robotics"
             className="rounded-2xl border border-sky-400/10 bg-zinc-950/70 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur transition hover:-translate-y-1 hover:border-sky-400/40"
           >

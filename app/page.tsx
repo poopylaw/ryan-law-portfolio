@@ -41,6 +41,15 @@ export default function Home() {
           </a>
 
           <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-sky-400/50 px-8 py-4 text-base font-semibold text-sky-200 transition hover:border-sky-300 hover:bg-sky-400/10"
+          >
+            View Resume
+          </a>
+
+          <a
             href="/contact"
             className="rounded-full border border-sky-400/50 px-8 py-4 text-base font-semibold text-sky-200 transition hover:border-sky-300 hover:bg-sky-400/10"
           >
